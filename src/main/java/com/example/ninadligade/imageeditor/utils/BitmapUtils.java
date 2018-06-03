@@ -43,9 +43,7 @@ public class BitmapUtils {
 
             istr = assetManager.open(fileName);//, AssetManager.ACCESS_BUFFER);
 
-            if(istr == null){
-                Log.i("ROHINI", "LIGADE");
-            }
+            
             // Calculate inSampleSize
             options.inSampleSize = calculateInSampleSize(options, width, height);
 
